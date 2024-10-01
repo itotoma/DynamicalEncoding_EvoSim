@@ -185,9 +185,6 @@ def evolution(inputs_list, Duration, Outputnoise):
         print("===================")
         
         most_fitted = sorted(Cell_group, reverse=True, key=lambda u: u.fitness)[0]
-        
-        
-        
 
         if ave_fit > 0.90:
             print("saturated")
